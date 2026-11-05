@@ -1,0 +1,21 @@
+{
+  "note": "Bandeau du haut : la première annonce active (from ≤ aujourd'hui ≤ to) s'affiche. « id » change → le bandeau réapparaît même si on l'avait fermé. Laisser from/to à null = toujours active.",
+  "items": [
+    {
+      "id": "fermeture-noel-2026",
+      "from": "2026-12-15",
+      "to": "2027-01-02",
+      "fr": "Fermeture de fin d'année : dates à confirmer. On vous les donne ici et sur Instagram.",
+      "en": "Year-end closure: dates to be confirmed. We'll post them here and on Instagram.",
+      "link": null
+    },
+    {
+      "id": "serie-marron-2026",
+      "from": null,
+      "to": null,
+      "fr": "La série Marron est de retour : chaude ou froide, avec chantilly et perles.",
+      "en": "The Chestnut series is back: hot or iced, with whipped cream and pearls.",
+      "link": "nouveautes"
+    }
+  ]
+}

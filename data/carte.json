@@ -1,0 +1,113 @@
+{
+  "note": "Carte reprise de sa page Uber Eats (relevée le 2026-11-05) + boissons vues sur Instagram. Prix en euros, taille medium sauf mention. price = null → « prix en boutique » (à remplir). À faire valider par Meow Thé, notamment les prix sur place.",
+  "source": "Uber Eats, 2026-11-05",
+  "families": [
+    {
+      "id": "the-au-lait",
+      "image": "/media/boissons/the-au-lait-chat.jpg",
+      "fr": { "name": "Thés au lait", "short": "Le grand classique, avec ses perles.", "note": "Sucre, température et glaçons au choix." },
+      "en": { "name": "Milk teas", "short": "The classic, pearls included.", "note": "Choose your sugar, temperature and ice." },
+      "items": [
+        { "id": "brown-sugar", "price": 7, "popular": true, "image": "/media/boissons/brown-sugar-comptoir.jpg", "fr": { "name": "Brown sugar boba milk", "desc": "Lait frais, sirop de sucre brun caramélisé et perles de tapioca." }, "en": { "name": "Brown sugar boba milk", "desc": "Fresh milk, caramelised brown sugar syrup and tapioca pearls." } },
+        { "id": "the-noir-lait", "price": 6.5, "popular": true, "image": "/media/boissons/the-au-lait-chat.jpg", "fr": { "name": "Thé noir au lait, perles de tapioca", "desc": "Le bubble tea tel qu'on l'aime : thé noir, lait, perles." }, "en": { "name": "Black milk tea with tapioca pearls", "desc": "Bubble tea the way we love it: black tea, milk, pearls." } },
+        { "id": "the-vert-lait", "price": 6.5, "fr": { "name": "Thé vert au lait, perles de tapioca", "desc": "Plus léger, plus floral." }, "en": { "name": "Green milk tea with tapioca pearls", "desc": "Lighter and more floral." } },
+        { "id": "nuage-oreo", "price": 7.5, "image": "/media/nouveautes/nuage-oreo-jasmin.jpg", "fr": { "name": "Nuage Oreo au jasmin", "desc": "Thé au lait crémeux au jasmin et Oreo." }, "en": { "name": "Jasmine Oreo Cloud", "desc": "Creamy jasmine milk tea with Oreo." } },
+        { "id": "cheese-the-noir", "price": 7, "fr": { "name": "Crème cheese au thé noir au lait", "desc": "Une mousse de crème cheese sur un thé noir au lait. Perles comprises." }, "en": { "name": "Cream cheese black milk tea", "desc": "Cream cheese foam over black milk tea. Pearls included." } },
+        { "id": "the-noir-taro", "price": 6.5, "fr": { "name": "Thé noir au lait, taro", "desc": "Perles de tapioca en supplément." }, "en": { "name": "Black milk tea with taro", "desc": "Tapioca pearls as an extra." } },
+        { "id": "the-noir-haricot", "price": 6.5, "fr": { "name": "Thé noir au lait, haricot rouge", "desc": "Perles de tapioca en supplément." }, "en": { "name": "Black milk tea with red bean", "desc": "Tapioca pearls as an extra." } },
+        { "id": "the-noir-trio", "price": 7, "fr": { "name": "Thé noir au lait, perles, taro et haricot rouge", "desc": "Les trois toppings dans le même gobelet." }, "en": { "name": "Black milk tea, pearls, taro and red bean", "desc": "All three toppings in one cup." } },
+        { "id": "lait-taro", "price": 6.5, "fr": { "name": "Lait au taro", "desc": "Sans thé. Perles de tapioca en supplément." }, "en": { "name": "Taro milk", "desc": "No tea. Tapioca pearls as an extra." } },
+        { "id": "lait-haricot", "price": 6.5, "fr": { "name": "Lait au haricot rouge", "desc": "Sans thé. Perles de tapioca en supplément." }, "en": { "name": "Red bean milk", "desc": "No tea. Tapioca pearls as an extra." } },
+        { "id": "lait-trio", "price": 7, "fr": { "name": "Lait, haricot rouge, taro et perles", "desc": "Sans thé, avec tous les toppings." }, "en": { "name": "Milk with red bean, taro and pearls", "desc": "No tea, all the toppings." } },
+        { "id": "chocolat-lait", "price": 6.5, "fr": { "name": "Chocolat au lait, perles de tapioca", "desc": "Pour ceux qui ne boivent pas de thé." }, "en": { "name": "Chocolate milk with tapioca pearls", "desc": "For the non-tea drinkers." } }
+      ]
+    },
+    {
+      "id": "creme-brulee",
+      "image": "/media/boissons/creme-brulee-serie.jpg",
+      "fr": { "name": "Crème brûlée", "short": "Le dessus caramélisé, le dessous en perles.", "note": "Sucre, température et glaçons au choix." },
+      "en": { "name": "Crème brûlée", "short": "Torched on top, pearls at the bottom.", "note": "Choose your sugar, temperature and ice." },
+      "items": [
+        { "id": "cb-brown-sugar", "price": 7.3, "popular": true, "image": "/media/boissons/creme-brulee-serie.jpg", "fr": { "name": "Crème brûlée brown sugar", "desc": "Brown sugar boba milk sous une crème brûlée. Perles comprises." }, "en": { "name": "Brown sugar crème brûlée", "desc": "Brown sugar boba milk under a torched custard top. Pearls included." } },
+        { "id": "cb-the-lait", "price": 7.3, "fr": { "name": "Crème brûlée thé au lait, perles", "desc": "Le thé au lait, version dessert." }, "en": { "name": "Crème brûlée milk tea with pearls", "desc": "Milk tea, dessert style." } },
+        { "id": "cb-matcha", "price": 7.3, "fr": { "name": "Crème brûlée matcha au lait, perles", "desc": "Matcha au lait et sa croûte caramélisée." }, "en": { "name": "Crème brûlée matcha latte with pearls", "desc": "Matcha latte with a caramelised crust." } },
+        { "id": "cb-matcha-haricot", "price": 7.3, "fr": { "name": "Crème brûlée matcha au lait, haricot rouge", "desc": "Perles de tapioca en supplément." }, "en": { "name": "Crème brûlée matcha latte with red bean", "desc": "Tapioca pearls as an extra." } },
+        { "id": "cb-chocolat", "price": 7.3, "fr": { "name": "Crème brûlée chocolat au lait, perles", "desc": "Chocolat au lait sous la crème." }, "en": { "name": "Crème brûlée chocolate milk with pearls", "desc": "Chocolate milk under the custard." } }
+      ]
+    },
+    {
+      "id": "matcha",
+      "image": "/media/boissons/matcha-fraise.jpg",
+      "fr": { "name": "Matcha", "short": "Préparé à la commande.", "note": "Sucre, température et glaçons au choix." },
+      "en": { "name": "Matcha", "short": "Made to order.", "note": "Choose your sugar, temperature and ice." },
+      "items": [
+        { "id": "matcha-lait", "price": 6.5, "popular": true, "fr": { "name": "Matcha au lait, perles de tapioca", "desc": "Matcha et lait, perles au fond." }, "en": { "name": "Matcha latte with tapioca pearls", "desc": "Matcha and milk, pearls at the bottom." } },
+        { "id": "matcha-haricot", "price": 6.5, "fr": { "name": "Matcha au lait, haricot rouge", "desc": "Le duo japonais. Perles en supplément." }, "en": { "name": "Matcha latte with red bean", "desc": "The Japanese pairing. Pearls as an extra." } },
+        { "id": "matcha-fraise", "price": null, "image": "/media/boissons/matcha-fraise.jpg", "fr": { "name": "Matcha fraise", "desc": "Fraises écrasées au fond, matcha au lait dessus." }, "en": { "name": "Strawberry matcha", "desc": "Crushed strawberries at the bottom, matcha latte on top." } }
+      ]
+    },
+    {
+      "id": "fruits",
+      "image": "/media/boissons/trio-fruits-lait.jpg",
+      "fr": { "name": "Thés aux fruits", "short": "Fruits frais et thé infusé.", "note": "Sucre et glaçons au choix. Taille large pour les thés aux fruits, medium pour les oolong." },
+      "en": { "name": "Fruit teas", "short": "Fresh fruit and brewed tea.", "note": "Choose your sugar and ice. Large for fruit teas, medium for oolongs." },
+      "items": [
+        { "id": "vert-passion", "price": 6.5, "popular": true, "fr": { "name": "Thé vert à la passion", "desc": "Fruit de la passion et thé vert, bien frais." }, "en": { "name": "Passion fruit green tea", "desc": "Passion fruit and green tea, ice cold." } },
+        { "id": "vert-fruits-mix", "price": 6.5, "image": "/media/boissons/trio-fruits-lait.jpg", "fr": { "name": "Thé vert aux fruits frais mix", "desc": "Des morceaux de fruits frais dans un thé vert." }, "en": { "name": "Mixed fresh fruit green tea", "desc": "Chunks of fresh fruit in green tea." } },
+        { "id": "noir-citron", "price": 6.5, "fr": { "name": "Thé noir au citron vert", "desc": "Acidulé, désaltérant." }, "en": { "name": "Lime black tea", "desc": "Tangy and thirst-quenching." } },
+        { "id": "vert-citron", "price": 6.5, "fr": { "name": "Thé vert au citron vert", "desc": "La version plus légère." }, "en": { "name": "Lime green tea", "desc": "The lighter take." } },
+        { "id": "vert-orange", "price": 6.5, "fr": { "name": "Thé vert à l'orange", "desc": "Orange fraîche et thé vert." }, "en": { "name": "Orange green tea", "desc": "Fresh orange and green tea." } },
+        { "id": "oolong-peche", "price": 6, "fr": { "name": "Thé oolong à la pêche", "desc": "Un topping au choix." }, "en": { "name": "Peach oolong", "desc": "One topping of your choice." } },
+        { "id": "oolong-raisin", "price": 6, "fr": { "name": "Thé oolong au raisin", "desc": "Un topping au choix." }, "en": { "name": "Grape oolong", "desc": "One topping of your choice." } },
+        { "id": "oolong-rose", "price": 6, "fr": { "name": "Thé oolong à la rose", "desc": "Un topping au choix." }, "en": { "name": "Rose oolong", "desc": "One topping of your choice." } },
+        { "id": "oolong-sakura", "price": 6, "fr": { "name": "Thé oolong au sakura", "desc": "Un topping au choix." }, "en": { "name": "Sakura oolong", "desc": "One topping of your choice." } }
+      ]
+    },
+    {
+      "id": "frappes",
+      "image": "/media/boissons/oreo-cheese.jpg",
+      "fr": { "name": "Frappés & sodas", "short": "Glacés, mixés, gourmands.", "note": "Frappés en medium (500 ml) ou large selon la recette." },
+      "en": { "name": "Frappés & sodas", "short": "Blended, iced, indulgent.", "note": "Frappés come medium (500 ml) or large depending on the recipe." },
+      "items": [
+        { "id": "frappe-oreo", "price": 7.3, "popular": true, "image": "/media/boissons/oreo-cheese.jpg", "fr": { "name": "Frappé Oreo, crème cheese", "desc": "Oreo mixé et mousse de crème cheese." }, "en": { "name": "Oreo frappé with cream cheese", "desc": "Blended Oreo topped with cream cheese foam." } },
+        { "id": "frappe-fraise-cheese", "price": 7.5, "fr": { "name": "Frappé fraise, crème cheese", "desc": "Fraise mixée sous une crème cheese. Taille large." }, "en": { "name": "Strawberry frappé with cream cheese", "desc": "Blended strawberry under cream cheese foam. Large." } },
+        { "id": "frappe-mangue-cheese", "price": 7.5, "fr": { "name": "Frappé mangue, crème cheese", "desc": "Mangue mixée sous une crème cheese. Taille large." }, "en": { "name": "Mango frappé with cream cheese", "desc": "Blended mango under cream cheese foam. Large." } },
+        { "id": "frappe-mangue-coco", "price": 7.5, "fr": { "name": "Frappé mangue au lait de coco", "desc": "Mangue mixée au lait de coco." }, "en": { "name": "Mango coconut milk frappé", "desc": "Mango blended with coconut milk." } },
+        { "id": "frappe-fraise-coco", "price": 7.5, "fr": { "name": "Frappé fraise au lait de coco", "desc": "Fraise et coco." }, "en": { "name": "Strawberry coconut milk frappé", "desc": "Strawberry and coconut." } },
+        { "id": "frappe-coco", "price": 6.5, "fr": { "name": "Frappé noix de coco", "desc": "Coco, coco, coco." }, "en": { "name": "Coconut frappé", "desc": "Coconut, through and through." } },
+        { "id": "the-pasteque", "price": 7.5, "image": "/media/boissons/the-pasteque.jpg", "seasonal": true, "fr": { "name": "Thé à la pastèque", "desc": "Édition limitée de l'été, avec perles de gelée." }, "en": { "name": "Watermelon tea", "desc": "Summer limited edition, with jelly pearls." } },
+        { "id": "passion-soda", "price": null, "image": "/media/desserts/mochis-soda.jpg", "fr": { "name": "Passion soda", "desc": "Soda pétillant au fruit de la passion et perles de gelée." }, "en": { "name": "Passion fruit soda", "desc": "Sparkling passion fruit soda with jelly pearls." } }
+      ]
+    },
+    {
+      "id": "lattes",
+      "image": "/media/boissons/brown-sugar-versage.jpg",
+      "fr": { "name": "Lattés", "short": "Café, coco, fraise ou rose.", "note": "Un topping au choix." },
+      "en": { "name": "Lattes", "short": "Coffee, coconut, strawberry or rose.", "note": "One topping of your choice." },
+      "items": [
+        { "id": "raw-coconut", "price": 7.3, "fr": { "name": "Raw coconut latté", "desc": "Café et lait de coco. Sucre au choix." }, "en": { "name": "Raw coconut latte", "desc": "Coffee and coconut milk. Sugar to taste." } },
+        { "id": "fraise-latte", "price": 7, "fr": { "name": "Fraise latté", "desc": "Fraise et lait, tout en rose." }, "en": { "name": "Strawberry latte", "desc": "Strawberry and milk, all pink." } },
+        { "id": "rose-latte", "price": 7, "fr": { "name": "Rose latté", "desc": "Un latté parfumé à la rose." }, "en": { "name": "Rose latte", "desc": "A rose-scented latte." } }
+      ]
+    },
+    {
+      "id": "desserts",
+      "image": "/media/desserts/pudding-sakura.jpg",
+      "fr": { "name": "Desserts", "short": "Puddings et mochis glacés.", "note": "Selon les arrivages : demandez au comptoir." },
+      "en": { "name": "Desserts", "short": "Puddings and ice cream mochi.", "note": "Depends on the day: ask at the counter." },
+      "items": [
+        { "id": "pudding-matcha", "price": null, "image": "/media/desserts/pudding-matcha.jpg", "fr": { "name": "Pudding Matcha", "desc": "Crème, haricots rouges, matcha." }, "en": { "name": "Matcha pudding", "desc": "Cream, red beans, matcha." } },
+        { "id": "pudding-sakura", "price": null, "image": "/media/desserts/pudding-sakura.jpg", "fr": { "name": "Pudding Sakura", "desc": "Crème et fraises fraîches." }, "en": { "name": "Sakura pudding", "desc": "Cream and fresh strawberries." } },
+        { "id": "mochi", "price": null, "image": "/media/desserts/mochis-soda.jpg", "fr": { "name": "Mochis glacés", "desc": "Plusieurs parfums, à l'unité." }, "en": { "name": "Ice cream mochi", "desc": "Several flavours, sold by the piece." } }
+      ]
+    }
+  ],
+  "toppings": [
+    { "id": "tapioca", "price": null, "fr": "Perles de tapioca", "en": "Tapioca pearls" },
+    { "id": "gelee", "price": null, "fr": "Perles de gelée", "en": "Jelly pearls" },
+    { "id": "haricot", "price": null, "fr": "Haricot rouge", "en": "Red bean" },
+    { "id": "taro", "price": null, "fr": "Taro", "en": "Taro" },
+    { "id": "cheese", "price": null, "fr": "Crème cheese", "en": "Cream cheese foam" },
+    { "id": "oreo", "price": null, "fr": "Éclats d'Oreo", "en": "Oreo crumble" }
+  ]
+}

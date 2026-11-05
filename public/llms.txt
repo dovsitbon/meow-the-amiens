@@ -1,0 +1,12 @@
+# Meow Thé – bubble tea à Amiens
+
+> Boutique de bubble tea (thé aux perles) au 1 rue de Beauvais, 80000 Amiens. Thés au lait, crème brûlée, matcha, thés aux fruits frais, frappés, lattés, puddings et mochis glacés. Sucre (0 à 100 %), glaçons et toppings au choix. Sur place, à emporter (commande WhatsApp) et livraison Uber Eats. Note Google 4,8/5 (224 avis, relevé le 5 novembre 2026).
+
+- Horaires : mardi au samedi 12 h – 19 h 45, dimanche 13 h – 18 h 45, fermé le lundi.
+- Téléphone / WhatsApp : +33 6 67 10 75 30
+- Instagram : https://www.instagram.com/meowthe_amiens/
+
+## Pages
+- [Accueil](https://meow-the-amiens.vercel.app/fr): nouveautés, compose ton bubble tea, commande groupée, infos pratiques, FAQ
+- [La carte et les prix](https://meow-the-amiens.vercel.app/fr/carte)
+- [English menu](https://meow-the-amiens.vercel.app/en/carte)

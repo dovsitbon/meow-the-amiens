@@ -1,0 +1,422 @@
+@import "tailwindcss";
+
+@theme {
+  /* Charte tirée de sa boutique : bois clair, gobelets crème, perles noires, logo au trait taupe */
+  --color-cream: #f6ede1;
+  --color-cream-deep: #efe2cf;
+  --color-paper: #fffaf3;
+  --color-white: #ffffff;
+  --color-caramel: #b9773f;
+  /* Caramel lisible en petit texte sur crème : 5,4:1 */
+  --color-caramel-ink: #87511f;
+  --color-ink: #241c17;
+  /* Texte secondaire : 7,4:1 sur crème */
+  --color-muted: #54473d;
+  /* Trait du logo, décoratif uniquement */
+  --color-taupe: #9a8676;
+  --color-line: #e3d4c0;
+  --color-matcha: #8da05a;
+  --color-matcha-soft: #dfe5c8;
+  --color-matcha-ink: #4f5f27;
+  --color-sakura: #f2c6cf;
+  --color-sakura-soft: #f9e3e7;
+
+  --font-display: var(--font-fredoka), "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+  --font-body: var(--font-nunito), "Segoe UI", Arial, sans-serif;
+
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.05;
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  a,
+  button,
+  label,
+  summary,
+  select,
+  input {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  ::selection {
+    background: var(--color-sakura);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  dialog,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: var(--font-body);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer components {
+  .container-x {
+    width: 100%;
+    max-width: 76rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-x {
+      padding-inline: 2rem;
+    }
+  }
+
+  .kicker {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--color-caramel-ink);
+  }
+
+  /* Boutons : pilule, perle qui rebondit au survol */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 3rem;
+    padding: 0.7rem 1.4rem;
+    border-radius: 999px;
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1;
+    transition:
+      background-color 0.2s,
+      color 0.2s,
+      border-color 0.2s,
+      transform 0.2s var(--ease-out);
+    white-space: nowrap;
+  }
+  .btn:active {
+    transform: scale(0.97);
+  }
+  .btn-ink {
+    background: var(--color-ink);
+    color: var(--color-cream);
+  }
+  .btn-ink:hover {
+    background: #3a2e26;
+  }
+  .btn-line {
+    border: 2px solid var(--color-ink);
+    color: var(--color-ink);
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    color: var(--color-cream);
+  }
+  .btn-paper {
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  .btn-paper:hover {
+    background: var(--color-white);
+  }
+  .pearl {
+    display: inline-block;
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 999px;
+    background: currentColor;
+    flex: none;
+  }
+  .btn:hover .pearl,
+  .tile:hover .pearl,
+  .card-hover:hover .pearl {
+    animation: pearl-bounce 0.6s var(--ease-out);
+  }
+  @keyframes pearl-bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    35% {
+      transform: translateY(-7px);
+    }
+    65% {
+      transform: translateY(0) scaleY(0.8) scaleX(1.15);
+    }
+    80% {
+      transform: translateY(-2px);
+    }
+  }
+
+  .link-u {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--color-caramel);
+  }
+  .link-u:hover {
+    text-decoration-color: currentColor;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.7rem 1rem;
+    border: 1.5px solid var(--color-line);
+    border-radius: 14px;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-size: 1rem;
+  }
+  .field:focus-visible {
+    outline: none;
+    border-color: var(--color-ink);
+  }
+  .field[aria-invalid="true"] {
+    border-color: #b3261e;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 1rem;
+    border: 1.5px solid var(--color-line);
+    border-radius: 999px;
+    background: var(--color-paper);
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition:
+      background-color 0.15s,
+      border-color 0.15s,
+      color 0.15s;
+  }
+  .chip:hover {
+    border-color: var(--color-ink);
+  }
+  .chip[aria-pressed="true"],
+  .chip[aria-checked="true"],
+  input:checked + .chip {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-cream);
+  }
+  input:focus-visible + .chip {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 3px;
+  }
+}
+
+/* Apparition douce au scroll (JS uniquement) */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 24px));
+  transition:
+    opacity 0.7s var(--ease-out) var(--reveal-delay, 0s),
+    transform 0.7s var(--ease-out) var(--reveal-delay, 0s);
+}
+.js .reveal.in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Bandeau d'infos refermé (classe posée avant le rendu pour éviter le saut) */
+.infobar-closed .infobar {
+  display: none;
+}
+
+/* ───────── Ouverture (≤ 1,5 s, une fois par session) ───────── */
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  background: var(--color-cream);
+  animation: intro-out 0.3s ease-in 1.2s forwards;
+}
+.intro-seen .intro {
+  display: none;
+}
+.intro .cup {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw 0.45s var(--ease-out) forwards;
+}
+.intro .drop {
+  opacity: 0;
+  transform: translateY(-70px);
+  animation: drop 0.45s var(--ease-out) forwards;
+  animation-delay: var(--d);
+}
+.intro .straw {
+  opacity: 0;
+  transform: translate(10px, -40px) rotate(8deg);
+  transform-origin: 50% 100%;
+  animation: straw 0.22s var(--ease-out) 0.78s forwards;
+}
+.intro .word {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: fade-up 0.25s var(--ease-out) 0.92s forwards;
+}
+.intro .ear-l,
+.intro .ear-r {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+}
+.intro .ear-l {
+  animation: ear-l 0.3s ease-in-out 1.05s;
+}
+.intro .ear-r {
+  animation: ear-r 0.3s ease-in-out 1.05s;
+}
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes drop {
+  0% {
+    opacity: 1;
+    transform: translateY(-70px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0) scale(1.15, 0.85);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes straw {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fade-up {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes ear-l {
+  50% {
+    transform: rotate(-14deg);
+  }
+}
+@keyframes ear-r {
+  50% {
+    transform: rotate(14deg);
+  }
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .intro {
+    display: none;
+  }
+}
+
+/* Gobelet du configurateur */
+.cup-fill {
+  transition:
+    transform 0.6s var(--ease-spring),
+    fill 0.4s;
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+}
+.cup-pearl {
+  transition:
+    opacity 0.3s,
+    transform 0.5s var(--ease-spring);
+}
+.cup-pearl[data-on="false"] {
+  opacity: 0;
+  transform: translateY(-40px);
+}
+
+/* Onglets de la carte : défilement horizontal sur mobile sans barre */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

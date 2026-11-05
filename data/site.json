@@ -1,0 +1,17 @@
+{
+  "name": "Meow Thé",
+  "nameStyled": "Mҽöw Thé",
+  "url": "https://meow-the-amiens.vercel.app",
+  "phone": "06 67 10 75 30",
+  "phoneIntl": "+33 6 67 10 75 30",
+  "whatsapp": "33667107530",
+  "instagram": "https://www.instagram.com/meowthe_amiens/",
+  "instagramHandle": "@meowthe_amiens",
+  "uberEats": "https://www.ubereats.com/fr/store/meow-the/AkFNYyC9WXuPvvbJ8Tm6wA",
+  "address": { "street": "1 rue de Beauvais", "postalCode": "80000", "city": "Amiens", "region": "Hauts-de-France", "country": "FR" },
+  "maps": "https://www.google.com/maps/search/?api=1&query=Meow+Th%C3%A9+1+rue+de+Beauvais+80000+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=Meow+Th%C3%A9,+1+rue+de+Beauvais,+80000+Amiens&output=embed",
+  "rating": { "value": 4.8, "count": 224, "source": "Google", "checked": "2026-11-05" },
+  "siret": null,
+  "editor": null
+}

@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "homeTitle": "Bubble tea à Amiens centre | Meow Thé, 1 rue de Beauvais",
+    "homeDesc": "Bubble tea, matcha, thés aux fruits frais et puddings au 1 rue de Beauvais, Amiens. Sucre et glaçons à votre goût. Sur place, à emporter ou en livraison. 4,8/5 sur Google.",
+    "carteTitle": "La carte et les prix | Meow Thé, bubble tea à Amiens",
+    "carteDesc": "Toute la carte de Meow Thé à Amiens : thés au lait, crème brûlée, matcha, thés aux fruits frais, frappés, lattés et desserts, avec les prix.",
+    "legalTitle": "Mentions légales | Meow Thé Amiens",
+    "legalDesc": "Mentions légales et données personnelles du site de Meow Thé, bubble tea à Amiens.",
+    "ogAlt": "Trois bubble teas Meow Thé : thé aux fruits frais, thé au lait aux perles et fraise"
+  },
+  "a11y": { "skip": "Aller au contenu", "menu": "Menu", "close": "Fermer", "home": "Meow Thé, accueil", "lang": "Langue", "newTab": "(nouvel onglet)" },
+  "nav": { "carte": "La carte", "nouveautes": "Nouveautés", "compose": "Compose ton bubble", "groupe": "Commande groupée", "infos": "Infos", "instagram": "Instagram" },
+  "order": {
+    "cta": "Commander",
+    "title": "Comment voulez-vous commander ?",
+    "delivery": "Livraison",
+    "deliveryText": "Chez vous avec Uber Eats.",
+    "takeaway": "À emporter",
+    "takeawayText": "Composez, envoyez sur WhatsApp, passez prendre.",
+    "group": "Commande groupée",
+    "groupText": "Anniversaire, bureau, goûter : à partir de 6 boissons.",
+    "call": "Appeler",
+    "callText": "06 67 10 75 30"
+  },
+  "intro": { "skip": "Passer" },
+  "infobar": { "close": "Fermer le bandeau", "more": "Voir" },
+  "status": {
+    "open": "Ouvert maintenant",
+    "until": "jusqu'à {time}",
+    "closed": "Fermé",
+    "opens": "ouvre {when} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain",
+    "days": ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"]
+  },
+  "rating": { "label": "{value}/5 sur Google", "count": "{count} avis", "aria": "Note Google {value} sur 5, {count} avis (voir les avis)" },
+  "hero": {
+    "eyebrow": "Bubble tea · Amiens centre",
+    "title": "Le bubble tea comme vous l'aimez",
+    "text": "Des perles moelleuses, des fruits frais, du matcha préparé à la commande. Le sucre et les glaçons, c'est vous qui choisissez.",
+    "ctaMenu": "Voir la carte",
+    "alt": "Brown sugar boba milk Meow Thé sur un sous-verre en bois, perles noires au fond"
+  },
+  "tiles": { "title": "Par quoi on commence ?", "see": "Voir" },
+  "services": {
+    "title": "Comme ça vous arrange",
+    "items": [
+      { "id": "place", "title": "Sur place", "text": "Une pause au comptoir, en plein centre." },
+      { "id": "takeaway", "title": "À emporter", "text": "Commandez sur WhatsApp, passez prendre." },
+      { "id": "delivery", "title": "Livraison", "text": "Sans contact, avec Uber Eats." },
+      { "id": "phone", "title": "Téléphone", "text": "06 67 10 75 30" }
+    ]
+  },
+  "news": {
+    "kicker": "En ce moment",
+    "title": "Nouveautés du moment",
+    "until": "Jusqu'au {date}",
+    "always": "Tant qu'il y en a",
+    "priceShop": "Prix en boutique",
+    "order": "Je veux goûter",
+    "orderMsg": "Bonjour Meow Thé ! Je voudrais commander : {name}."
+  },
+  "favorites": { "title": "Les préférées d'Amiens", "text": "Les boissons les plus commandées. Le reste est sur la carte.", "cta": "Toute la carte" },
+  "blocks": {
+    "custom": { "title": "Votre sucre. Vos glaçons. Vos perles.", "text": "De 0 % à 100 % de sucre, chaud ou glacé, avec ou sans perles. Chaque gobelet se règle à votre goût.", "cta": "Composer le mien", "alt": "Lait versé sur des perles au sucre brun dans un gobelet Meow Thé" },
+    "fruits": { "title": "Des fruits frais. Du vrai thé.", "text": "Passion, orange, citron vert, pêche : de vrais fruits et du thé infusé, sans sirop qui masque tout. Le goûter qui désaltère.", "cta": "Les thés aux fruits", "alt": "Thé aux fruits frais, thé au lait aux perles et boisson à la fraise sur un plateau en bois" }
+  },
+  "compose": {
+    "kicker": "Compose ton bubble tea",
+    "title": "Votre gobelet, en quatre choix",
+    "text": "Choisissez, puis montrez l'écran au comptoir ou envoyez-le sur WhatsApp pour le prendre à emporter.",
+    "steps": ["Base", "Sucre", "Glace", "Toppings"],
+    "stepLabel": "Étape {n} sur 4",
+    "bases": { "noir": "Thé noir au lait", "vert": "Thé vert au lait", "jasmin": "Jasmin au lait", "oolong": "Oolong", "matcha": "Matcha au lait", "lait": "Lait, sans thé" },
+    "ice": { "chaud": "Chaud", "sans": "Sans glaçons", "peu": "Peu de glaçons", "normal": "Glaçons normal" },
+    "sugarHint": "100 % = la recette maison",
+    "toppingsHint": "Plusieurs choix possibles",
+    "none": "Sans topping",
+    "prev": "Retour",
+    "next": "Suivant",
+    "done": "Voir mon récap",
+    "recap": "Mon bubble tea",
+    "sugar": "Sucre",
+    "iceLabel": "Glace",
+    "toppingsLabel": "Toppings",
+    "send": "Envoyer sur WhatsApp",
+    "show": "Montrer au comptoir",
+    "restart": "Recommencer",
+    "nameLabel": "Prénom",
+    "timeLabel": "Je passe vers",
+    "timeHint": "Heure de retrait, facultatif",
+    "counterClose": "Fermer",
+    "counterHint": "À montrer au comptoir",
+    "note": "Le prix dépend de la recette : on vous le confirme en réponse.",
+    "msgTitle": "Commande à emporter",
+    "msgIntro": "Bonjour Meow Thé ! Je voudrais :",
+    "msgName": "Prénom",
+    "msgTime": "Retrait vers",
+    "msgEnd": "Merci !",
+    "cupAlt": "Aperçu du gobelet composé"
+  },
+  "group": {
+    "kicker": "Commande groupée",
+    "title": "Un goûter pour toute la bande",
+    "text": "Anniversaire, pot de départ, réunion, après-match : dites-nous combien vous êtes, on prépare tout.",
+    "points": ["À partir de 6 boissons", "Retrait en boutique ou livraison", "Réponse sur WhatsApp"],
+    "fields": {
+      "date": "Date",
+      "time": "Heure",
+      "count": "Nombre de boissons",
+      "mode": "Retrait ou livraison",
+      "pickup": "Retrait en boutique",
+      "delivery": "Livraison",
+      "address": "Adresse de livraison",
+      "types": "Boissons souhaitées",
+      "typeOptions": { "lait": "Thés au lait", "fruits": "Thés aux fruits", "matcha": "Matcha", "frappes": "Frappés", "mix": "Un peu de tout" },
+      "sugar": "Sucre",
+      "sugarOptions": { "maison": "Recette maison (100 %)", "moins": "Moins sucré (50 %)", "mix": "Selon chacun" },
+      "name": "Nom",
+      "phone": "Téléphone",
+      "message": "Message",
+      "messagePh": "Allergies, occasion, ce qu'il faut savoir…",
+      "optional": "facultatif"
+    },
+    "errors": { "required": "À remplir", "phone": "Numéro incomplet", "count": "6 boissons minimum", "date": "Choisissez une date à venir" },
+    "submit": "Envoyer la demande sur WhatsApp",
+    "after": "WhatsApp s'ouvre avec votre récap. Il ne reste qu'à l'envoyer.",
+    "msgTitle": "Demande de commande groupée",
+    "msgIntro": "Bonjour Meow Thé ! Voici ma demande :"
+  },
+  "spirit": {
+    "kicker": "L'esprit Meow",
+    "title": "Un seul objectif : faire le meilleur bubble tea.",
+    "text": "C'est écrit dans notre bio, et on s'y tient chaque jour. Du thé de qualité, des fruits frais, des perles préparées avec soin, et Nono, le chat de la maison, qui surveille tout ça depuis le comptoir.",
+    "more": "Notre histoire arrive bientôt ici.",
+    "cta": "Nous suivre",
+    "alt": "Nono, le chat gris de Meow Thé, sous l'enseigne lumineuse de la boutique"
+  },
+  "gallery": { "title": "Sur Instagram", "follow": "Suivre sur Instagram", "alts": {
+    "the-au-lait-chat": "Thé au lait aux perles avec un chat dessiné sur le gobelet",
+    "creme-brulee-serie": "Quatre bubble teas crème brûlée : chocolat, thé au lait, matcha et brown sugar",
+    "matcha-fraise": "Matcha fraise devant le comptoir et les écrans du menu",
+    "mochis-soda": "Mochis glacés et soda aux fruits sur une assiette bleue",
+    "oreo-cheese": "Frappé Oreo à la crème cheese",
+    "trio-plateau": "Thé aux fruits, thé au lait et fraise sur un plateau de Noël",
+    "nono-enseigne": "Nono le chat sous l'enseigne Meow Thé",
+    "trio-fruits-lait": "Trois boissons Meow Thé et des petits sapins",
+    "nuage-oreo-jasmin": "Nuage Oreo au jasmin à côté de chats en bois"
+  } },
+  "infos": {
+    "title": "Venir chez Meow Thé",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "closed": "Fermé",
+    "access": "Accès",
+    "accessText": "En centre-ville d'Amiens, rue de Beauvais. Bus Ametis et parkings du centre à proximité.",
+    "directions": "Itinéraire",
+    "contact": "Contact",
+    "call": "Appeler",
+    "whatsapp": "WhatsApp",
+    "mapTitle": "Carte : Meow Thé, 1 rue de Beauvais, Amiens",
+    "mapLoad": "Afficher la carte",
+    "photosSoon": "Photo de la façade à venir"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      { "q": "Quels allergènes dans vos boissons ?", "a": "Nos boissons peuvent contenir du lait et du gluten (Oreo, par exemple) selon les recettes. Dites-nous vos allergies au comptoir : on vous indique ce qui est possible. Une liste détaillée par boisson arrive bientôt." },
+      { "q": "Avez-vous des boissons sans lait ?", "a": "Oui. Les thés aux fruits frais et les oolong se boivent sans lait. Pour les frappés, demandez les versions au lait de coco (mangue, fraise, coco)." },
+      { "q": "Comment choisir le taux de sucre ?", "a": "Vous choisissez entre 0 %, 30 %, 50 %, 70 % et 100 %. 100 % correspond à la recette maison. Si vous hésitez, 50 % plaît à presque tout le monde." },
+      { "q": "Combien de temps d'attente ?", "a": "Chaque boisson est préparée à la commande. À l'heure du goûter ou le week-end il peut y avoir un peu de monde : envoyez votre commande sur WhatsApp avant de venir pour gagner du temps." },
+      { "q": "Livrez-vous ?", "a": "Oui, en livraison sans contact avec Uber Eats, aux horaires d'ouverture. Pour une commande groupée, écrivez-nous : on s'organise ensemble." }
+    ]
+  },
+  "carte": {
+    "kicker": "La carte",
+    "title": "Toute la carte, avec les prix",
+    "text": "Taille medium sauf mention. Sucre, température et glaçons au choix pour presque tout.",
+    "tabsLabel": "Familles de boissons",
+    "popular": "Préférée",
+    "seasonal": "De saison",
+    "priceShop": "Prix en boutique",
+    "toppings": "Toppings",
+    "toppingsText": "À ajouter ou à changer dans la plupart des boissons. Le prix vous est donné au comptoir.",
+    "source": "Prix relevés en novembre 2026, pouvant varier en boutique.",
+    "order": "Commander",
+    "compose": "Composer le mien",
+    "back": "Accueil"
+  },
+  "float": { "whatsapp": "Écrire sur WhatsApp", "msg": "Bonjour Meow Thé !" },
+  "footer": {
+    "tagline": "Bubble tea, matcha et petites douceurs, en plein centre d'Amiens.",
+    "hours": "Horaires",
+    "contact": "Contact",
+    "follow": "Suivre",
+    "legal": "Mentions légales",
+    "rights": "Tous droits réservés.",
+    "ratingNote": "Note Google relevée le {date}."
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "sections": [
+      { "h": "Éditeur", "p": "Meow Thé, 1 rue de Beauvais, 80000 Amiens. Téléphone : 06 67 10 75 30. SIRET : en cours d'ajout." },
+      { "h": "Hébergement", "p": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis." },
+      { "h": "Données personnelles", "p": "Le site ne dépose aucun cookie publicitaire et ne collecte aucune donnée. Les formulaires préparent un message WhatsApp : rien n'est envoyé tant que vous ne l'envoyez pas vous-même depuis WhatsApp." },
+      { "h": "Photos", "p": "Photos : Meow Thé. Toute reproduction sans accord est interdite." }
+    ]
+  },
+  "days": ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
+}

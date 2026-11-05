@@ -1,0 +1,41 @@
+{
+  "note": "Cartes « Nouveautés du moment ». until = date de fin (AAAA-MM-JJ) ou null. price = null → « prix en boutique ».",
+  "items": [
+    {
+      "id": "lait-marron",
+      "image": "/media/nouveautes/lait-marron-chantilly.jpg",
+      "price": 7.3,
+      "until": null,
+      "tag": { "fr": "Saison d'automne", "en": "Autumn special" },
+      "fr": { "name": "Série Marron chantilly", "desc": "Crème de marron, chantilly et perles de tapioca. Au lait, au thé vert au lait ou au thé noir au lait. Chaud ou froid." },
+      "en": { "name": "Chestnut series with whipped cream", "desc": "Chestnut cream, whipped cream and tapioca pearls. With milk, green milk tea or black milk tea. Hot or iced." }
+    },
+    {
+      "id": "nuage-oreo",
+      "image": "/media/nouveautes/nuage-oreo-jasmin.jpg",
+      "price": 7.5,
+      "until": null,
+      "tag": { "fr": "Nouveau", "en": "New" },
+      "fr": { "name": "Nuage Oreo au jasmin", "desc": "Un thé au lait crémeux au jasmin, avec de l'Oreo dessus et dedans." },
+      "en": { "name": "Jasmine Oreo Cloud", "desc": "Creamy jasmine milk tea with Oreo on top and all the way down." }
+    },
+    {
+      "id": "pudding-sakura",
+      "image": "/media/desserts/pudding-sakura.jpg",
+      "price": null,
+      "until": null,
+      "tag": { "fr": "Dessert", "en": "Dessert" },
+      "fr": { "name": "Pudding Sakura", "desc": "Un pudding rose tout doux, crème et fraises fraîches." },
+      "en": { "name": "Sakura pudding", "desc": "A soft pink pudding with cream and fresh strawberries." }
+    },
+    {
+      "id": "pudding-matcha",
+      "image": "/media/desserts/pudding-matcha.jpg",
+      "price": null,
+      "until": null,
+      "tag": { "fr": "Dessert", "en": "Dessert" },
+      "fr": { "name": "Pudding Matcha", "desc": "Pudding au matcha, crème, haricots rouges et une pluie de matcha." },
+      "en": { "name": "Matcha pudding", "desc": "Matcha pudding with cream, red beans and a dusting of matcha." }
+    }
+  ]
+}

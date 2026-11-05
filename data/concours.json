@@ -1,0 +1,8 @@
+{
+  "note": "Jeu concours en cours (affiché dans « Nouveautés » si active). Exemple passé : 10 bubble teas à gagner sur Instagram.",
+  "active": false,
+  "until": null,
+  "fr": { "title": "", "text": "" },
+  "en": { "title": "", "text": "" },
+  "link": "https://www.instagram.com/meowthe_amiens/"
+}

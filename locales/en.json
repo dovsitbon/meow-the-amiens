@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "homeTitle": "Bubble tea in central Amiens | Meow Thé, 1 rue de Beauvais",
+    "homeDesc": "Bubble tea, matcha, fresh fruit teas and puddings at 1 rue de Beauvais, Amiens. Sugar and ice the way you like. Eat in, take away or delivery. Rated 4.8/5 on Google.",
+    "carteTitle": "Menu and prices | Meow Thé, bubble tea in Amiens",
+    "carteDesc": "The full Meow Thé menu in Amiens: milk teas, crème brûlée, matcha, fresh fruit teas, frappés, lattes and desserts, with prices.",
+    "legalTitle": "Legal notice | Meow Thé Amiens",
+    "legalDesc": "Legal notice and privacy for the Meow Thé website, bubble tea in Amiens.",
+    "ogAlt": "Three Meow Thé bubble teas: fresh fruit tea, pearl milk tea and strawberry"
+  },
+  "a11y": { "skip": "Skip to content", "menu": "Menu", "close": "Close", "home": "Meow Thé, home", "lang": "Language", "newTab": "(new tab)" },
+  "nav": { "carte": "Menu", "nouveautes": "What's new", "compose": "Build your bubble", "groupe": "Group orders", "infos": "Visit", "instagram": "Instagram" },
+  "order": {
+    "cta": "Order",
+    "title": "How would you like to order?",
+    "delivery": "Delivery",
+    "deliveryText": "To your door with Uber Eats.",
+    "takeaway": "Take away",
+    "takeawayText": "Build it, send it on WhatsApp, pick it up.",
+    "group": "Group order",
+    "groupText": "Birthday, office, afternoon treat: from 6 drinks.",
+    "call": "Call",
+    "callText": "+33 6 67 10 75 30"
+  },
+  "intro": { "skip": "Skip" },
+  "infobar": { "close": "Close the banner", "more": "See" },
+  "status": {
+    "open": "Open now",
+    "until": "until {time}",
+    "closed": "Closed",
+    "opens": "opens {when} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow",
+    "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  },
+  "rating": { "label": "{value}/5 on Google", "count": "{count} reviews", "aria": "Google rating {value} out of 5, {count} reviews (see reviews)" },
+  "hero": {
+    "eyebrow": "Bubble tea · Central Amiens",
+    "title": "Bubble tea, just the way you like it",
+    "text": "Chewy pearls, fresh fruit, matcha made to order. You pick the sugar and the ice.",
+    "ctaMenu": "See the menu",
+    "alt": "Meow Thé brown sugar boba milk on a wooden coaster, black pearls at the bottom"
+  },
+  "tiles": { "title": "Where shall we start?", "see": "See" },
+  "services": {
+    "title": "However suits you",
+    "items": [
+      { "id": "place", "title": "Eat in", "text": "A break at the counter, right in town." },
+      { "id": "takeaway", "title": "Take away", "text": "Order on WhatsApp, pick it up." },
+      { "id": "delivery", "title": "Delivery", "text": "Contactless, with Uber Eats." },
+      { "id": "phone", "title": "Phone", "text": "+33 6 67 10 75 30" }
+    ]
+  },
+  "news": {
+    "kicker": "Right now",
+    "title": "What's new",
+    "until": "Until {date}",
+    "always": "While it lasts",
+    "priceShop": "Price in store",
+    "order": "I want one",
+    "orderMsg": "Hello Meow Thé! I'd like to order: {name}."
+  },
+  "favorites": { "title": "Amiens' favourites", "text": "The drinks people order most. Everything else is on the menu.", "cta": "Full menu" },
+  "blocks": {
+    "custom": { "title": "Your sugar. Your ice. Your pearls.", "text": "From 0% to 100% sugar, hot or iced, with or without pearls. Every cup is set the way you like it.", "cta": "Build mine", "alt": "Milk poured over brown sugar pearls in a Meow Thé cup" },
+    "fruits": { "title": "Fresh fruit. Real tea.", "text": "Passion fruit, orange, lime, peach: real fruit and brewed tea, no syrup drowning it all. The afternoon break that actually refreshes.", "cta": "Fruit teas", "alt": "Fresh fruit tea, pearl milk tea and a strawberry drink on a wooden tray" }
+  },
+  "compose": {
+    "kicker": "Build your bubble tea",
+    "title": "Your cup, in four choices",
+    "text": "Pick, then show the screen at the counter or send it on WhatsApp to take it away.",
+    "steps": ["Base", "Sugar", "Ice", "Toppings"],
+    "stepLabel": "Step {n} of 4",
+    "bases": { "noir": "Black milk tea", "vert": "Green milk tea", "jasmin": "Jasmine milk tea", "oolong": "Oolong", "matcha": "Matcha latte", "lait": "Milk, no tea" },
+    "ice": { "chaud": "Hot", "sans": "No ice", "peu": "Less ice", "normal": "Regular ice" },
+    "sugarHint": "100% = the house recipe",
+    "toppingsHint": "Pick as many as you like",
+    "none": "No topping",
+    "prev": "Back",
+    "next": "Next",
+    "done": "See my order",
+    "recap": "My bubble tea",
+    "sugar": "Sugar",
+    "iceLabel": "Ice",
+    "toppingsLabel": "Toppings",
+    "send": "Send on WhatsApp",
+    "show": "Show at the counter",
+    "restart": "Start again",
+    "nameLabel": "First name",
+    "timeLabel": "Pick-up around",
+    "timeHint": "Pick-up time, optional",
+    "counterClose": "Close",
+    "counterHint": "Show this at the counter",
+    "note": "The price depends on the recipe: we'll confirm it in our reply.",
+    "msgTitle": "Take-away order",
+    "msgIntro": "Hello Meow Thé! I'd like:",
+    "msgName": "Name",
+    "msgTime": "Pick-up around",
+    "msgEnd": "Thank you!",
+    "cupAlt": "Preview of your cup"
+  },
+  "group": {
+    "kicker": "Group orders",
+    "title": "A treat for the whole crew",
+    "text": "Birthday, leaving do, meeting, after the match: tell us how many you are and we'll get it all ready.",
+    "points": ["From 6 drinks", "Pick-up or delivery", "Reply on WhatsApp"],
+    "fields": {
+      "date": "Date",
+      "time": "Time",
+      "count": "Number of drinks",
+      "mode": "Pick-up or delivery",
+      "pickup": "Pick-up in store",
+      "delivery": "Delivery",
+      "address": "Delivery address",
+      "types": "Drinks you'd like",
+      "typeOptions": { "lait": "Milk teas", "fruits": "Fruit teas", "matcha": "Matcha", "frappes": "Frappés", "mix": "A bit of everything" },
+      "sugar": "Sugar",
+      "sugarOptions": { "maison": "House recipe (100%)", "moins": "Less sweet (50%)", "mix": "Up to each person" },
+      "name": "Name",
+      "phone": "Phone",
+      "message": "Message",
+      "messagePh": "Allergies, occasion, anything we should know…",
+      "optional": "optional"
+    },
+    "errors": { "required": "Required", "phone": "Incomplete number", "count": "6 drinks minimum", "date": "Pick a future date" },
+    "submit": "Send the request on WhatsApp",
+    "after": "WhatsApp opens with your summary. Just hit send.",
+    "msgTitle": "Group order request",
+    "msgIntro": "Hello Meow Thé! Here's my request:"
+  },
+  "spirit": {
+    "kicker": "The Meow spirit",
+    "title": "One goal: making the best bubble tea.",
+    "text": "It's in our bio and we stick to it every day. Quality tea, fresh fruit, pearls made with care, and Nono, the shop cat, keeping an eye on everything from the counter.",
+    "more": "Our story is coming here soon.",
+    "cta": "Follow us",
+    "alt": "Nono, Meow Thé's grey cat, under the shop's neon sign"
+  },
+  "gallery": { "title": "On Instagram", "follow": "Follow on Instagram", "alts": {
+    "the-au-lait-chat": "Pearl milk tea with a cat drawn on the cup",
+    "creme-brulee-serie": "Four crème brûlée bubble teas: chocolate, milk tea, matcha and brown sugar",
+    "matcha-fraise": "Strawberry matcha in front of the counter and menu screens",
+    "mochis-soda": "Ice cream mochi and a fruit soda on a blue plate",
+    "oreo-cheese": "Oreo frappé with cream cheese foam",
+    "trio-plateau": "Fruit tea, milk tea and strawberry on a Christmas tray",
+    "nono-enseigne": "Nono the cat under the Meow Thé sign",
+    "trio-fruits-lait": "Three Meow Thé drinks and small Christmas trees",
+    "nuage-oreo-jasmin": "Jasmine Oreo Cloud next to wooden cats"
+  } },
+  "infos": {
+    "title": "Visit Meow Thé",
+    "address": "Address",
+    "hours": "Opening hours",
+    "closed": "Closed",
+    "access": "Getting here",
+    "accessText": "In central Amiens, on rue de Beauvais. Ametis buses and town-centre car parks nearby.",
+    "directions": "Directions",
+    "contact": "Contact",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "mapTitle": "Map: Meow Thé, 1 rue de Beauvais, Amiens",
+    "mapLoad": "Show the map",
+    "photosSoon": "Shopfront photo coming soon"
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      { "q": "Which allergens are in your drinks?", "a": "Depending on the recipe, our drinks may contain milk and gluten (Oreo, for example). Tell us about any allergy at the counter and we'll tell you what works. A detailed list per drink is coming soon." },
+      { "q": "Do you have dairy-free drinks?", "a": "Yes. Fresh fruit teas and oolongs come without milk. For frappés, ask for the coconut milk versions (mango, strawberry, coconut)." },
+      { "q": "How do I pick the sugar level?", "a": "Choose 0%, 30%, 50%, 70% or 100%. 100% is the house recipe. If you're unsure, 50% suits almost everyone." },
+      { "q": "How long is the wait?", "a": "Every drink is made to order. Around snack time and at weekends it can get busy: send your order on WhatsApp before you come to save time." },
+      { "q": "Do you deliver?", "a": "Yes, contactless delivery with Uber Eats during opening hours. For a group order, message us and we'll sort it out together." }
+    ]
+  },
+  "carte": {
+    "kicker": "Menu",
+    "title": "The full menu, with prices",
+    "text": "Medium size unless stated. Sugar, temperature and ice to your taste for almost everything.",
+    "tabsLabel": "Drink families",
+    "popular": "Favourite",
+    "seasonal": "Seasonal",
+    "priceShop": "Price in store",
+    "toppings": "Toppings",
+    "toppingsText": "Add or swap them in most drinks. Ask at the counter for the price.",
+    "source": "Prices as of November 2026, may vary in store.",
+    "order": "Order",
+    "compose": "Build mine",
+    "back": "Home"
+  },
+  "float": { "whatsapp": "Message us on WhatsApp", "msg": "Hello Meow Thé!" },
+  "footer": {
+    "tagline": "Bubble tea, matcha and little treats, right in the centre of Amiens.",
+    "hours": "Opening hours",
+    "contact": "Contact",
+    "follow": "Follow",
+    "legal": "Legal notice",
+    "rights": "All rights reserved.",
+    "ratingNote": "Google rating checked on {date}."
+  },
+  "legal": {
+    "title": "Legal notice",
+    "sections": [
+      { "h": "Publisher", "p": "Meow Thé, 1 rue de Beauvais, 80000 Amiens, France. Phone: +33 6 67 10 75 30. SIRET: being added." },
+      { "h": "Hosting", "p": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA." },
+      { "h": "Personal data", "p": "This site sets no advertising cookies and collects no data. The forms prepare a WhatsApp message: nothing is sent until you send it yourself from WhatsApp." },
+      { "h": "Photos", "p": "Photos: Meow Thé. No reproduction without permission." }
+    ]
+  },
+  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+}
